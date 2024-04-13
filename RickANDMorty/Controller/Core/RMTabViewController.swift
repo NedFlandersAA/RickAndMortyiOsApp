@@ -11,6 +11,7 @@ final class RMTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
         view.backgroundColor = .red
         setUpTabs()
