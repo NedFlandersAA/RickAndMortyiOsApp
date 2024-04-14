@@ -7,6 +7,7 @@
 
 import UIKit
 
+// Control to show and search Characters
 final class RMCharacterViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -15,7 +16,21 @@ final class RMCharacterViewController: UIViewController {
         // Do any additional setup after loading the view.
         view.backgroundColor = .systemBackground
         title = "Characters"
-    }
+        
+        let request = RMRequest(
+            endpoint: .character,
+            //pathComponents: ["1"]
+            queryParameters:[
+                 URLQueryItem(name:"name",value:"rick"),
+                 URLQueryItem(name:"status",value:"alive"),
+            ]
+            )
+        print (request.url)
+        
+        RMService.shared.execute(request, expecting: RMCharacter.self) {result in
+            }
+        }
+    
     
 
     /*

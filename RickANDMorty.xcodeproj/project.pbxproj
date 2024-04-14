@@ -25,6 +25,10 @@
 		EC6597182BCAE7100025D6C8 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6597172BCAE7100025D6C8 /* RMService.swift */; };
 		EC65971A2BCAE72B0025D6C8 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6597192BCAE72B0025D6C8 /* RMRequest.swift */; };
 		EC65971C2BCAE8120025D6C8 /* RMEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC65971B2BCAE8120025D6C8 /* RMEndPoint.swift */; };
+		EC65971E2BCAEE260025D6C8 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC65971D2BCAEE260025D6C8 /* RMOrigin.swift */; };
+		EC6597202BCAEF120025D6C8 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC65971F2BCAEF120025D6C8 /* RMSingleLocation.swift */; };
+		EC6597222BCAEFF90025D6C8 /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6597212BCAEFF90025D6C8 /* RMCharacterStatus.swift */; };
+		EC6597242BCAF0420025D6C8 /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6597232BCAF0420025D6C8 /* RMCharacterGender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		EC6597172BCAE7100025D6C8 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
 		EC6597192BCAE72B0025D6C8 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 		EC65971B2BCAE8120025D6C8 /* RMEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndPoint.swift; sourceTree = "<group>"; };
+		EC65971D2BCAEE260025D6C8 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		EC65971F2BCAEF120025D6C8 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
+		EC6597212BCAEFF90025D6C8 /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
+		EC6597232BCAF0420025D6C8 /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +168,10 @@
 				EC6597072BC180E40025D6C8 /* RMLocation.swift */,
 				EC6597092BC180FA0025D6C8 /* RMCharacter.swift */,
 				EC65970B2BC1810D0025D6C8 /* RMEpisode.swift */,
+				EC65971D2BCAEE260025D6C8 /* RMOrigin.swift */,
+				EC65971F2BCAEF120025D6C8 /* RMSingleLocation.swift */,
+				EC6597212BCAEFF90025D6C8 /* RMCharacterStatus.swift */,
+				EC6597232BCAF0420025D6C8 /* RMCharacterGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -348,6 +360,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC65971E2BCAEE260025D6C8 /* RMOrigin.swift in Sources */,
+				EC6597202BCAEF120025D6C8 /* RMSingleLocation.swift in Sources */,
+				EC6597222BCAEFF90025D6C8 /* RMCharacterStatus.swift in Sources */,
+				EC6597242BCAF0420025D6C8 /* RMCharacterGender.swift in Sources */,
 				EC6597112BC181A20025D6C8 /* RMLocationViewController.swift in Sources */,
 				EC65970C2BC1810D0025D6C8 /* RMEpisode.swift in Sources */,
 				EC6596D52BC17DD40025D6C8 /* RMTabViewController.swift in Sources */,

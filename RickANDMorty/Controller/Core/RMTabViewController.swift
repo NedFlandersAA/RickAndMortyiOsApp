@@ -36,9 +36,9 @@ final class RMTabBarController: UITabBarController {
         
         
         nav1.tabBarItem = UITabBarItem(title: "Character", image: UIImage(systemName: "person"), tag: 1)
-        nav1.tabBarItem = UITabBarItem(title: "Location", image: UIImage(systemName: "globe"), tag: 2)
-        nav1.tabBarItem = UITabBarItem(title: "Episode", image: UIImage(systemName: "tv"), tag: 3)
-        nav1.tabBarItem = UITabBarItem(title: "Settings", image: UIImage(systemName: "person"), tag: 4)
+        nav2.tabBarItem = UITabBarItem(title: "Location", image: UIImage(systemName: "globe"), tag: 2)
+        nav3.tabBarItem = UITabBarItem(title: "Episode", image: UIImage(systemName: "tv"), tag: 3)
+        nav4.tabBarItem = UITabBarItem(title: "Settings", image: UIImage(systemName: "gear"), tag: 4)
         
         
         for nav in [nav1,nav2,nav3,nav4] {
